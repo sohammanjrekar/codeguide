@@ -11,7 +11,6 @@ import Prism from 'prismjs';
 import Home from './Pages/Home';
 import Code from "./Components/Code";
 import './Assets/Css/prism.css'
-import './Assets/JS/prism1'
 
 Prism.highlightAll()
 // import  './Assets/JS/prism1'
@@ -40,11 +39,11 @@ function App() {
         <Col>1 of 1</Col>
         <Col>1 of 1</Col>
       </Row>
-      <pre>
-  <code className="language-css">
-  <button class="copy-to-clipboard-button" type="button" data-copy-state="copy">
+      <pre> <button class="copy-to-clipboard-button" type="button" data-copy-state="copy">
 	<span>Copy</span>
 </button>
+  <code className="language-css">
+ 
   {`
     onSubmit(e) {
       e.preventDefault();
