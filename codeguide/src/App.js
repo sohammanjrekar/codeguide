@@ -26,12 +26,12 @@ function App() {
   `;
   return (
     <div className="App">
-  <CollapsibleExample/>
+  {/* <CollapsibleExample/> */}
     <Container>
-     <OffcanvasExample/>
+     {/* <OffcanvasExample/> */}
       {/* <Spinner/> */}
-      <Carousel1/>
-      <Home/>
+      {/* <Carousel1/> */}
+      {/* <Home/> */}
       <Code code={JSCode} language="javascript" />
       
       <Row>
@@ -39,9 +39,8 @@ function App() {
         <Col>1 of 1</Col>
         <Col>1 of 1</Col>
       </Row>
-      <pre> <button class="copy-to-clipboard-button" type="button" data-copy-state="copy">
-	<span>Copy</span>
-</button>
+      <div className="code-toolbar">
+      <pre> 
   <code className="language-css">
  
   {`
@@ -55,6 +54,7 @@ function App() {
   `}
   </code>
 </pre>
+<div class="toolbar"><div class="toolbar-item"><span>React JSX</span></div><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div> </div>
     </Container>
     <Footer/>
     </div>
